@@ -34,4 +34,5 @@ app.get('/questionbanks/:bname/:author', require('./handlers/get-question-bank-d
 
 //adding a question to a question bank
 //app.post('/questionbanks/addquestion', require('./handlers/add-new-question'))
-app.listen(port, function () { console.log(`server started at port ${port}`); });
+//app.listen(port, function () { console.log(`server started at port ${port}`); });
+app.listen(process.env.PORT || 3000, function () { console.log(`server started at port ${port}`); });
