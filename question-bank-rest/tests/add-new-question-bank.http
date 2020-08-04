@@ -1,0 +1,10 @@
+POST /questionbanks/addquestionbank HTTP/1.1
+Content-Type: application/json
+Host: localhost:3000
+# POST http://localhost:3000/questionbanks/addquestionbank
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsImZpcnN0bmFtZSI6IlZpbm9kIiwibGFzdG5hbWUiOiJLdW1hciIsImlhdCI6MTU5NjEyNTU3ODQzNn0.TrzBen8dkXtNMsaY0LpSaFe7Icu3LjcSgm6H8hMxewA
+
+{ "BID":"Nfr", "BNAME": "NodeJs", "NO_OF_QUESTIONS" : 0, "AUTHOR" : "TAUSHIQ"  } 
+# { "BID":"ACC", "BNAME": "Accounts", "NO_OF_QUESTIONS" : 0, "AUTHOR" : "HANZALA"  } 
+# { "BID":"CHE", "BNAME": "Chemistry", "NO_OF_QUESTIONS" : 0, "AUTHOR" : "AWAIS"  } 
+# { "BID":"BIO", "BNAME": "Biology", "NO_OF_QUESTIONS" : 0, "AUTHOR" : "AASIA"  } 
