@@ -1,0 +1,8 @@
+# GET /questionbanks/get-selected/Taushiq HTTP/1.1
+# Host: localhost:3000
+# Accept: application/json
+
+http://localhost:3000/questionbanks/get-selected/Accounts,Angular/Hanzala,Taushiq
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsImZpcnN0bmFtZSI6IlZpbm9kIiwibGFzdG5hbWUiOiJLdW1hciIsImlhdCI6MTU5NjEyNTU3ODQzNn0.TrzBen8dkXtNMsaY0LpSaFe7Icu3LjcSgm6H8hMxewA
+
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsImZpcnN0bmFtZSI6IlZpbm9kIiwibGFzdG5hbWUiOiJLdW1hciIsImlhdCI6MTU5NjEyNTU3ODQzNn0.TrzBen8dkXtNMsaY0LpSaFe7Icu3LjcSgm6H8hMx

@@ -5,13 +5,13 @@ module.exports = (req, resp) => {
     const bname = req.params.bname;
     const author = req.params.author;
     const question = req.params.question;
-    console.log('bname', bname);
+    //console.log('bname', bname);
 
     // cause of an SQL injection:
     // const sql = `select * from customers where customer_id = '${id}'`;
 
     const sql = `delete from ${bname}_${author} where question in ('${question}','${question}?' ) `;
-    console.log('sql', sql);
+    //console.log('sql', sql);
     const conn = mysql.createConnection(mysqlCfg);
     conn.query(sql, (err, result) => {
         if(err) throw err;

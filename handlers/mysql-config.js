@@ -6,6 +6,7 @@
 //     password: 'Admin@123'
 // };
 
+//remote
 module.exports = {
     host: 'remotemysql.com',
     port: 3306,

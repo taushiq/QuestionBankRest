@@ -4,13 +4,13 @@ const mysqlCfg = require('./mysql-config');
 module.exports = (req, resp) => {
     const bname = req.params.bname;
     const author = req.params.author;
-    console.log('bname', bname);
+    //console.log('bname', bname);
 
     // cause of an SQL injection:
     // const sql = `select * from customers where customer_id = '${id}'`;
 
     const sql = `drop table ${bname}_${author}`;
-    console.log('sql', sql);
+    //console.log('sql', sql);
     const conn = mysql.createConnection(mysqlCfg);
     conn.query(sql, (err, result) => {
         if(err) throw err;

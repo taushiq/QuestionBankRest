@@ -5,9 +5,9 @@ module.exports = (req, resp) => {
     const conn = mysql.createConnection(mysqlCfg);
 
     // perform validation before query
-    console.log('Console was here');
+    //console.log('Console was here');
     req.body.no_of_questions = 0;
-    console.log(req.body);
+    //console.log(req.body);
     const requiredFields = ['bname', 'no_of_questions' , 'author'];
 
     const missingFields = [];

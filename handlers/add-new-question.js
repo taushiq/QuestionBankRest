@@ -7,8 +7,8 @@ module.exports = (req, resp) => {
     const author = req.params.author;
 
     // perform validation before query
-    console.log('Console was in Add new Question RestendPoinnt');
-    console.log(req.body);
+    //console.log('Console was in Add new Question RestendPoinnt');
+    //console.log(req.body);
     const requiredFields = ['question' , 'answer_one', 'answer_two', 'answer_three', 'answer_four'];
 
     const missingFields = [];
